@@ -1,0 +1,43 @@
+// Colors
+$primary-color: #e4002b;
+$secondary-color: #ff9fb1;
+$light-color: #c8c9c7;
+$dark-color: #53565a;
+$bg-color: #f6f6f6;
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+
+//Initial Settings
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+
+body{
+    background-color: $bg-color;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 300;
+}
+
+li{
+    margin-top: 10px;
+}
+
+#main{
+    height: 100%;
+}
