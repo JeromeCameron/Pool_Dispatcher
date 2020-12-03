@@ -11,7 +11,7 @@ UPLOAD_FOLDER = './app/static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = os.urandom(16)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://db_admin:Gofigure876@localhost/pooldb'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://'
 
 db = SQLAlchemy(app)
 
