@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +33,7 @@ li {
   margin: auto;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
 
@@ -121,3 +123,26 @@ button[class^="btn-"]:hover, a[class^="btn-"]:hover, input[class^="btn-"]:hover 
   #login-main #submit {
     width: 100%;
     margin-top: 1rem; }
+
+.register {
+  width: 100%;
+  margin-top: 20px; }
+
+#register {
+  width: 100%; }
+
+h1 {
+  font-family: 'Teko', sans-serif;
+  margin-bottom: 10px;
+  color: #e4002b;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0; }
+
+#icon {
+  height: 110px;
+  width: 110px; }
+
+#header {
+  display: flex;
+  flex-direction: row; }

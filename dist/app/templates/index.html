@@ -4,6 +4,13 @@
 
 {% block main %}
     <div class="container">
+        <div id="header">
+            <img id="icon" src="{{ url_for('static', filename='images/path74.png') }}" alt="">
+            <div>
+                <h1>Pool</h1>
+                <h1>Dispatcher</h1>
+            </div>
+        </div>
         <div id="login-main">
             <h2>Log In</h2>
             <form action="" id="login-form">
@@ -19,6 +26,11 @@
                 <input type="submit" name="submit" id="submit" class="btn-primary" value="Log In">
             </form>
         </div>
+
+        <div class="register">
+            <button id="register" class="btn-dark">Sign Up</button>
+        </div>
+
     </div>
     
 
